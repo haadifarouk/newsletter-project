@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newsletter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="flex flex-col md:hidden bg-white h-screen bg-white-100">
+            <div>
+                <img class="flex w-screen md:min-w-fit" src="images/illustration-sign-up-mobile.svg" alt="">
+            </div>
+            <div>
+                <h3 class="font-Roboto text-5xl font-bold py-5 px-5">
+                Stay updated!
+                </h3>
+
+                <p class="px-5 max-w-sm">
+                Join 60,000+ product managers receiving monthly updates on:
+                </p>
+            </div>
+            
+            <div class="max-w-sm flex flex-col mx-5">
+                <div class="flex flex-row space-x-4 py-4">
+                    <img src="images/icon-list.svg" alt="">
+                    <p>
+                        Product discovery and building what matters
+                    </p>
+                </div>
+                <div class="flex flex-row space-x-4 py-4">
+                    <img src="images/icon-list.svg" alt="">
+                    <p>
+                        Measuring to ensure updates are a success
+                    </p>
+                </div>
+                <div class="flex flex-row space-x-4 py-4">
+                    <img src="images/icon-list.svg" alt="">
+                    <p>
+                        And much more!
+                    </p>
+                </div>
+
+                <div>
+                    <p class="font-bold my-6 text-sm">
+                        Email address
+                    </p>
+                    
+                    <input class="p-4 border border-black" type="email" placeholder="Email">
+                </div>
+
+
+            </div>
+    </div>
+
+    <!--md body div -->
+    <div class="h-screen bg-gray-600 md:flex flex-row hidden items-center justify-center">
+       <!--  white container -->
+        <div class="bg-white p-4 m-auto rounded-lg shadow-lg flex flex-row mx-28">
+            <!-- column container inside white container -->
+            <div class="flex flex-col p-5">
+                <div class="font-bold font-Roboto text-4xl my-4">
+                    Stay Updated!
+                </div>
+                <div class="font-Roboto text-xs">
+                    Join 60,000+ product managers receiving monthly updates on:
+                </div>
+                <!-- list -->
+                <div class="space-y-4 my-4 text-sm">
+                    <div class="flex">
+                        <img class="mr-3" src="images/icon-list.svg" alt="">
+                        Product discovery and building what matters
+                    </div>
+                    <div class="flex">
+                        <img class="mr-3" src="images/icon-list.svg" alt="">
+                        Measuring to ensure updates are a success
+                    </div>
+                    <div class="flex">
+                        <img class="mr-3" src="images/icon-list.svg" alt="">
+                        And much more!
+                    </div>
+                </div>
+                <div>
+                    <p class="text-xs my-5">Email address</p>
+                    <input class="p-4 border pr-9 border-gray-500 rounded-lg" type="email" placeholder="email@company.com">
+                </div>
+                <div>
+                    <button class="text-white bg-gray-800 py-3 mt-5 p-2 rounded-lg text-sm shadow-lg hover:text-gray-800 hover:bg-gray-200 transition-all">
+                        Subscribe to monthly newsletter
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img src="images/illustration-sign-up-desktop.svg" class="min-w-full min-h-full" alt="">
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
